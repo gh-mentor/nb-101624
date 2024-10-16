@@ -20,6 +20,18 @@ Exceptions:
 import java.util.Random;
 
 public class Stress {
+    /**
+     * Performs a stress test by creating a thread that runs a loop for a specified load.
+     * The thread will sleep for a random duration between 250 and 750 milliseconds in each iteration.
+     *
+     * @param load the number of iterations the thread should run. Must be greater than 0.
+     * @throws IllegalArgumentException if the load is less than 1.
+     * @exception InterruptedException if the thread is interrupted while sleeping.
+     * @return void
+     * @example stressTest(5); // runs the thread for 5 iterations
+     * @example stressTest(10); // runs the thread for 10 iterations
+     * @example stressTest(0); // throws IllegalArgumentException
+     */
     public static void stressTest(int load) {
         if (load < 1) {
             throw new IllegalArgumentException("Load must be greater than 0");

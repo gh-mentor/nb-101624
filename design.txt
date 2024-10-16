@@ -38,7 +38,6 @@ Describe how you can assist a QA professional in creating UI tests using Seleniu
 
 I am a Python programmer. How do I create UI tests using Selenium?
 
-
 i need  sample hourly employee data. The sample should have a header row and at least 10 rows of data. The data should include the following columns: Employee ID, Department ID, First Name, Last Name, Hourly Rate. The data should be in a CSV file format.
 
 i need a  JSON array of 10 rows of data. The data should include the following keys: EmployeeID, DepartmentID, FirstName, LastName, HourlyRate. 
